@@ -207,3 +207,109 @@ body {
   color: white;
   transition: all 1s ease;
 }
+
+#page4 {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: #fdfdfd;
+  object-fit: cover;
+  color: white;
+  /* ---------------------------- */
+}
+#center-page4 {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  text-align: center;
+  > h1 {
+    font-size: 45px;
+  }
+  > h3 {
+    font-size: 30px;
+  }
+}
+
+#page4 > video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#page7 {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: #f5f5f7;
+}
+#page7 > canvas {
+  position: relative;
+  max-width: 100vw;
+  max-height: 100vh;
+  z-index: 100;
+}
+
+#page8 {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: #f5f5f7;
+}
+#page8 > h1 {
+  width: 30%;
+  padding-left: 100px;
+  font-size: 1.5vw;
+  font-weight: 500;
+  color: rgb(147, 144, 144);
+  z-index: 100;
+}
+#page8 > h1 > span {
+  color: black;
+}
+
+#page9 {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: #f5f5f7;
+}
+#page9 > h1 {
+  width: 30%;
+  padding-left: 100px;
+  font-size: 1.5vw;
+  font-weight: 500;
+  color: rgb(147, 144, 144);
+  z-index: 200;
+}
+#page9 > h1 > span {
+  color: black;
+}
+
+#page10 {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: #db0808;
+}
+
+#page11 {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: #c709aa;
+}
+
+#page12 {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: #2b1196;
+}
+
+#page13 {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: #12b9cf;
+}
